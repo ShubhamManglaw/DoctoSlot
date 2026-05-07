@@ -11,8 +11,6 @@ import Login from "./pages/Login.jsx";
 
 function App() {
   const location = useLocation();
-  
-  // Hide Navbar, Footer, and container padding on Dashboard and Login pages
   const hideLayout = location.pathname === "/Doctor-Dashboard" || location.pathname === "/";
 
   return (
