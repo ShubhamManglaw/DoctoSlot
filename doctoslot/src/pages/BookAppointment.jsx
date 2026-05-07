@@ -78,7 +78,7 @@ const BookAppointment = () => {
     setShowPopup(true);
 
     setTimeout(() => {
-      navigate("/", { state: { newPatient: formData } });
+      navigate("/home", { state: { newPatient: formData } });
     }, 2000);
   };
 
